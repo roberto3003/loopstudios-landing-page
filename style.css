@@ -1,7 +1,7 @@
 :root {
   --line-h: 1.5em;
   --padding: 1.5em;
-  --gap: calc(var(--line-h)*2);
+  --gap: calc(var(--line-h)*1);
   --radius: 1rem;
   --font-size: clamp(0.8rem, 1.25vw, 2.5rem);
   --letter-spacing: 0.25em;
@@ -207,6 +207,7 @@ p {
 }
 
 a {
+  color: var(--text);
   text-decoration:none;
 }
 
@@ -489,4 +490,68 @@ hr {
 *************************************************************************** */
 
 /* Site specific */
+
+  h1 {
+	max-width: 10em;
+  }
+
+  .h2 {
+	align-items: baseline;
+  }
+
+  .h2 .button {
+	margin-inline-end: 0;
+  }
+
+  article .bg-image {
+  background-image: url('./images/desktop/image-interactive.jpg');
+}
+
+.card {
+  flex-direction: column-reverse;
+  gap: 0;
+  background-color: var(--theme);
+  justify-content: space-between;
+}
+
+.card a {
+  padding: var(--line-h);
+}
+
+.card h3 {
+  margin: 0;
+}
+
+.card1 .bg-image {
+  background-image: url('./images/desktop/image-deep-earth.jpg');
+}
+
+.card2 .bg-image {
+  background-image: url('./images/desktop/image-night-arcade.jpg');
+}
+
+.card3 .bg-image {
+  background-image: url('./images/desktop/image-soccer-team.jpg');
+  background-position: 50% 0%;
+}
+
+.card4 .bg-image {
+  background-image: url('./images/desktop/image-grid.jpg');
+}
+
+.card5 .bg-image {
+  background-image: url('./images/desktop/image-from-above.jpg');
+}
+
+.card6 .bg-image {
+  background-image: url('./images/desktop/image-pocket-borealis.jpg');
+}
+
+.card7 .bg-image {
+  background-image: url('./images/desktop/image-curiosity.jpg');
+}
+
+.card8 .bg-image {
+  background-image: url('./images/desktop/image-fisheye.jpg');
+}
 
