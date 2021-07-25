@@ -26,14 +26,14 @@
 
 /* light-theme colors */
 :root {
-  --bg-color: whitesmoke;
+  --bg-color: white;
   --text: rgba(46, 49, 49, 1);
   --text-70: rgba(46, 49, 49, 0.7);
   --text-contrast: var(--white);
-  --theme: mistyrose;
+  --theme: lavender;
   --medium: lavender;
-  --contrast: lightsteelblue;
-  --accent: orangered;
+  --contrast: lavenderblush;
+  --accent: blue;
   --white: white;
   --black: rgba(46, 49, 49, 1);
   --shadow: 0 0.25vw 1vw  0 rgba(0,0,0,0.2);
@@ -180,19 +180,19 @@ body > * {
 }
 
 h1 {
-  font-size: 3em;
+  font-size: 2.5em;
 }
 
 h2 {
-  font-size: 2em;
+  font-size: 1.75em;
 }
 
 h3 {
-  font-size: 1.5em;
+  font-size: 1.25em;
 }
 
 h4 {
-  font-size: 1.25em;
+  font-size: 1em;
 }
 
 h1, h2, h3, h4 {
@@ -555,3 +555,15 @@ hr {
   background-image: url('./images/desktop/image-fisheye.jpg');
 }
 
+.footer .container {
+  justify-content: space-between;
+}
+
+.right {
+  justify-content: center;
+  align-items: flex-end;
+}
+
+.social svg:hover {
+  fill: var(--accent);
+}
